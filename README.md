@@ -4,9 +4,9 @@ Simple Single File C++ Implementation for WER Calculation for Evaluating Automat
 # Compilation
 g++ calculate-wer.cpp -o wer
 
-#usage
+# usage
 wer <org ref file > <asr result file>
   
-#Example
+# Example
 ./wer ref.txt asr.txt
 FINAL WER = 0.375622   FINAL SER = 0.79798
