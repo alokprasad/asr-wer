@@ -1,11 +1,12 @@
 # asr-wer
-Simple Single File C++ Implementation for WER Calculation for Evaluating Automatic Speech Recognition
+Simple Single File C++ Implementation for Word Error Rate (WER) & Sentence Error Rate (SER) 
+Calculation for Evaluating Automatic Speech Recognition.
 
 # Compilation
 ```g++ calculate-wer.cpp -o wer```
 
 # usage
-```wer <org ref file > <asr result file>```
+```wer <org ref file transcript> <asr result file transcript>```
   
 # Example
 
